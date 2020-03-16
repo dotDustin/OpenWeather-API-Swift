@@ -11,7 +11,7 @@ import Foundation
 class OpenWeatherClient {
 
     var cityId: String?
-    static let apiKey = "0417812ff211ab3c833748ba0a802151" //"YOUR_API_KEY"
+    static let apiKey = "YOUR_API_KEY"
     
     //api.openweathermap.org/data/2.5/forecast?id={city ID}&appid={your api key}
     
