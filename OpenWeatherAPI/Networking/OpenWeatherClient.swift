@@ -11,10 +11,17 @@ import Foundation
 class OpenWeatherClient {
 
     var cityId: String?
-    static let apiKey = "YOUR_API_KEY"
+    static let apiKey = "0417812ff211ab3c833748ba0a802151" //"YOUR_API_KEY"
+    
+    //api.openweathermap.org/data/2.5/forecast?id={city ID}&appid={your api key}
+    
     
     enum Endpoints {
-        static let base = "http://api.openweathermap.org/data/2.5/weather?"
+        // current weather base
+        //static let base = "http://api.openweathermap.org/data/2.5/weather?"
+        // five day weather base
+        static let base = "http://api.openweathermap.org/data/2.5/forecast?"
+        
         static let units = "&units=imperial"
         static let api = "&appid=\(OpenWeatherClient.apiKey)"
         

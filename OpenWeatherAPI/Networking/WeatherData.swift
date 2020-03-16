@@ -15,3 +15,4 @@ struct WeatherData: Codable, Equatable {
     let description: String
     let icon: String
 }
+

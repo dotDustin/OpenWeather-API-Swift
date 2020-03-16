@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D918F598241F354C004665EE /* FiveDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D918F597241F354C004665EE /* FiveDayCell.swift */; };
+		D938A4ED241F1FF400EDC4CB /* FiveDayWeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D938A4EC241F1FF400EDC4CB /* FiveDayWeatherVC.swift */; };
+		D938A4EF241F2CBB00EDC4CB /* FiveDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D938A4EE241F2CBB00EDC4CB /* FiveDay.swift */; };
 		D9CFA83F241DE07B00C29560 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CFA83E241DE07B00C29560 /* AppDelegate.swift */; };
 		D9CFA841241DE07B00C29560 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CFA840241DE07B00C29560 /* SceneDelegate.swift */; };
 		D9CFA843241DE07B00C29560 /* CurrentWeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CFA842241DE07B00C29560 /* CurrentWeatherVC.swift */; };
@@ -21,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D918F597241F354C004665EE /* FiveDayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveDayCell.swift; sourceTree = "<group>"; };
+		D938A4EC241F1FF400EDC4CB /* FiveDayWeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveDayWeatherVC.swift; sourceTree = "<group>"; };
+		D938A4EE241F2CBB00EDC4CB /* FiveDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveDay.swift; sourceTree = "<group>"; };
 		D9CFA83B241DE07B00C29560 /* OpenWeatherAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenWeatherAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9CFA83E241DE07B00C29560 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9CFA840241DE07B00C29560 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +76,8 @@
 				D9CFA840241DE07B00C29560 /* SceneDelegate.swift */,
 				D9CFA852241DE08700C29560 /* Networking */,
 				D9CFA842241DE07B00C29560 /* CurrentWeatherVC.swift */,
+				D938A4EC241F1FF400EDC4CB /* FiveDayWeatherVC.swift */,
+				D918F597241F354C004665EE /* FiveDayCell.swift */,
 				D9CFA844241DE07B00C29560 /* Main.storyboard */,
 				D9CFA847241DE07D00C29560 /* Assets.xcassets */,
 				D9CFA849241DE07D00C29560 /* LaunchScreen.storyboard */,
@@ -86,6 +94,7 @@
 				D9CFA856241DE0CD00C29560 /* WeatherData.swift */,
 				D9CFA854241DE0CD00C29560 /* MainData.swift */,
 				D9CFA85B241DE26600C29560 /* WindData.swift */,
+				D938A4EE241F2CBB00EDC4CB /* FiveDay.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -163,11 +172,14 @@
 			files = (
 				D9CFA858241DE0CD00C29560 /* MainData.swift in Sources */,
 				D9CFA843241DE07B00C29560 /* CurrentWeatherVC.swift in Sources */,
+				D938A4ED241F1FF400EDC4CB /* FiveDayWeatherVC.swift in Sources */,
+				D918F598241F354C004665EE /* FiveDayCell.swift in Sources */,
 				D9CFA857241DE0CD00C29560 /* WeatherResults.swift in Sources */,
 				D9CFA83F241DE07B00C29560 /* AppDelegate.swift in Sources */,
 				D9CFA85A241DE0CD00C29560 /* WeatherData.swift in Sources */,
 				D9CFA85C241DE26600C29560 /* WindData.swift in Sources */,
 				D9CFA841241DE07B00C29560 /* SceneDelegate.swift in Sources */,
+				D938A4EF241F2CBB00EDC4CB /* FiveDay.swift in Sources */,
 				D9CFA859241DE0CD00C29560 /* OpenWeatherClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
