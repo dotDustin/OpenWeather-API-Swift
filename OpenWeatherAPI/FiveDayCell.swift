@@ -2,7 +2,7 @@
 //  FiveDayCell.swift
 //  OpenWeatherAPI
 //
-//  Created by Dustin Mahone on 3/16/20.
+//  Created by Dustin M on 3/16/20.
 //  Copyright © 2020 Dustin. All rights reserved.
 //
 

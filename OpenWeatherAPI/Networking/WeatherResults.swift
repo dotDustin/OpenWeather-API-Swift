@@ -13,6 +13,13 @@ struct WeatherResults: Decodable, Equatable {
     let weather: [WeatherData]
     let main: MainData
     let wind: WindData
-    let list: [FiveDay]
+    //let list: [FiveDay]
 }
 
+struct FiveDayResults: Decodable, Equatable {
+
+    //let weather: [WeatherData]
+    //let main: MainData
+    //let wind: WindData
+    let list: [FiveDay]
+}
