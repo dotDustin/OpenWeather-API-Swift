@@ -163,5 +163,37 @@
             </objects>
             <point key="canvasLocation" x="1098.5507246376812" y="137.94642857142856"/>
         </scene>
+        <!--Weather MapVC-->
+        <scene sceneID="qXa-c5-nMr">
+            <objects>
+                <viewController id="KQG-zn-cI7" customClass="WeatherMapVC" customModule="OpenWeatherAPI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XAl-fJ-Z2C">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fhE-2b-l6N">
+                                <rect key="frame" x="20" y="261" width="374" height="374"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="fhE-2b-l6N" secondAttribute="height" multiplier="64:64" id="doz-YU-tDe"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="fhE-2b-l6N" firstAttribute="centerX" secondItem="XAl-fJ-Z2C" secondAttribute="centerX" id="3Ym-lf-g3C"/>
+                            <constraint firstItem="whX-cM-eXw" firstAttribute="trailing" secondItem="fhE-2b-l6N" secondAttribute="trailing" constant="20" id="63K-9t-qhU"/>
+                            <constraint firstItem="fhE-2b-l6N" firstAttribute="leading" secondItem="whX-cM-eXw" secondAttribute="leading" constant="20" id="RgQ-B9-7fZ"/>
+                            <constraint firstItem="fhE-2b-l6N" firstAttribute="centerY" secondItem="XAl-fJ-Z2C" secondAttribute="centerY" id="omK-wo-qps"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="whX-cM-eXw"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="fhE-2b-l6N" id="SxC-vX-v4F"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HIA-tP-1le" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1099" y="870"/>
+        </scene>
     </scenes>
 </document>

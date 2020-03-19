@@ -23,3 +23,7 @@ struct FiveDayResults: Decodable, Equatable {
     //let wind: WindData
     let list: [FiveDay]
 }
+
+struct MapImage: Codable {
+    let message: String
+}

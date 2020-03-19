@@ -21,6 +21,7 @@
 		D9CFA859241DE0CD00C29560 /* OpenWeatherClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CFA855241DE0CD00C29560 /* OpenWeatherClient.swift */; };
 		D9CFA85A241DE0CD00C29560 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CFA856241DE0CD00C29560 /* WeatherData.swift */; };
 		D9CFA85C241DE26600C29560 /* WindData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CFA85B241DE26600C29560 /* WindData.swift */; };
+		D9D6743824231E8F0088F6D8 /* WeatherMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D6743724231E8F0088F6D8 /* WeatherMapVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		D9CFA855241DE0CD00C29560 /* OpenWeatherClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenWeatherClient.swift; sourceTree = "<group>"; };
 		D9CFA856241DE0CD00C29560 /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		D9CFA85B241DE26600C29560 /* WindData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindData.swift; sourceTree = "<group>"; };
+		D9D6743724231E8F0088F6D8 /* WeatherMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMapVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				D9CFA847241DE07D00C29560 /* Assets.xcassets */,
 				D9CFA849241DE07D00C29560 /* LaunchScreen.storyboard */,
 				D9CFA84C241DE07D00C29560 /* Info.plist */,
+				D9D6743724231E8F0088F6D8 /* WeatherMapVC.swift */,
 			);
 			path = OpenWeatherAPI;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				D9CFA83F241DE07B00C29560 /* AppDelegate.swift in Sources */,
 				D9CFA85A241DE0CD00C29560 /* WeatherData.swift in Sources */,
 				D9CFA85C241DE26600C29560 /* WindData.swift in Sources */,
+				D9D6743824231E8F0088F6D8 /* WeatherMapVC.swift in Sources */,
 				D9CFA841241DE07B00C29560 /* SceneDelegate.swift in Sources */,
 				D938A4EF241F2CBB00EDC4CB /* FiveDay.swift in Sources */,
 				D9CFA859241DE0CD00C29560 /* OpenWeatherClient.swift in Sources */,
