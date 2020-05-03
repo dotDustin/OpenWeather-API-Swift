@@ -46,7 +46,8 @@ class CurrentWeatherVC: UIViewController, UITableViewDataSource, UITableViewDele
     
     func getCurrentWeather(id: String) {
         openWeatherClient.cityId = id
-        let url = openWeatherClient.url
+        //let url = openWeatherClient.url
+        let url = openWeatherClient.currentUrl
         
         print(url)
         
